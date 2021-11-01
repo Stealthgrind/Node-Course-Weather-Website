@@ -30,6 +30,8 @@ const getWeather = (location, callback) => {
         temperature +
         " degrees in " +
         body.location.name +
+        ", " +
+        body.location.region +
         ". It is blowing " +
         (wind_speed / 1.151).toFixed(2) +
         " knots from the " +

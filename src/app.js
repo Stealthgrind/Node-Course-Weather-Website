@@ -6,7 +6,7 @@ const { response, query } = require("express");
 const express = require("express");
 const hbs = require("hbs");
 const { get } = require("request");
-const { getWeather } = require("../utils/weather");
+const { getWeather } = require("./utils/weather");
 
 const app = express();
 const port = process.env.PORT || 3000;
